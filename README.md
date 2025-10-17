@@ -1,3 +1,6 @@
+
+![Python Automation Banner](3.png)
+
 # 🐍 Python Automation Tools  
 
 This repository includes Python-based automation scripts for **Excel**, **PDF**, and **data processing** tasks.  
