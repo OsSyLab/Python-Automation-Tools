@@ -27,3 +27,9 @@ I’ll be adding projects step by step as part of my automation toolkit.
 
 📌 **Status:** Work in progress – new scripts will be added soon.  
 📫 Contact: osmanuluhan@hotmail.com
+
+### 🧭 Next Steps
+- [ ] Add first automation script (Excel)
+- [ ] Add PDF report generator demo
+- [ ] Add usage examples for each module
+- [ ] Create short tutorial GIFs
