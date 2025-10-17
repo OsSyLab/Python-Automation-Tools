@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/OsSyLab/Python-Automation-Tools/blob/e79fa314980ce985536155b9a5279f66c978e0d/GITHUB%20Bannerlar%20(1).png" alt="Python Automation Tools Banner" width="100%">
+  <img src="https://github.com/OsSyLab/Python-Automation-Tools/blob/e79fa314980ce985536155b9a5279f66c978e0d/GITHUB%20Bannerlar%20(1).png?raw=true" alt="Python Automation Tools Banner" width="100%">
 </p>
 
 
