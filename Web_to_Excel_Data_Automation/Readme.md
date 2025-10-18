@@ -23,40 +23,42 @@ Install required Python packages:
 pip install requests beautifulsoup4 openpyxl
 📂 File Structure
 bash
-
+Kodu kopyala
 project-folder/
 ├── web_to_excel.py      # Main script file
 └── README.md            # Documentation
 🧩 How to Use
 Update the script:
 
-In the web_to_excel.py file, locate this line:
+In the web_to_excel.py file, go to the following line:
 
 python
-
+Kodu kopyala
 url = "ENTER_THE_WEBPAGE_URL_TO_SCRAPE"
 Replace it with the actual URL of the website you want to scrape data from.
 
 Customize HTML parsing logic
-If the structure of the table is different, update the parsing logic accordingly.
+If the structure of the table is different, you may need to update how the table is parsed using BeautifulSoup.
 
-Set your Excel file path and sheet name:
+Set the correct Excel path and sheet name:
+
+Update the following section with your file path and sheet name:
 
 python
-
+Kodu kopyala
 file_path = r"PATH_TO_YOUR_EXCEL_FILE.xlsx"
 sheet_name = "YourSheetName"
 Run the script:
 
 bash
-
+Kodu kopyala
 python web_to_excel.py
 ⚠️ Notes
-Make sure the Excel file is closed before running the script.
+Ensure the Excel file is closed before running the script.
 
-If the webpage structure changes, the script may need to be updated.
+This script assumes that the target data is in the first HTML table of the page.
 
-This example assumes the target data is inside the first HTML table.
+The numeric format uses commas (,) for decimals. If your data uses dots (.), you may adjust the conversion logic.
 
 📄 License
 MIT License
